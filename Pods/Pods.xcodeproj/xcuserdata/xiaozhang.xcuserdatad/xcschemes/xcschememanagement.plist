@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-KINWebBrowser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>314BF8776FA7F6347D193AC0</key>
+		<key>13609046467D9E3E2C5AA803</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>48EFFE740A9E3B6323DC259A</key>
+		<key>15FCA504A3FC8EF64EBCB0D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4DB078DD4520096E7B7F0423</key>
+		<key>2C79DDA54354804F1B5DEC3C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A9FC0EA6BC8CEF1C84FA6143</key>
+		<key>3F7D56CE5F3A38FAB6DBED09</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FDE353804FFADBACA8FAAB90</key>
+		<key>435D2284FF346303AEA2DCA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>584C257A7EB320957B550721</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B1D69EB8F0F747B8A89EBDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

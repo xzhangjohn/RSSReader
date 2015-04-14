@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79C1A96F4B8F4295785D100E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2255701E7FE2B16F83F0959 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AA8AA144194362C900C3888B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8AA143194362C900C3888B /* logo.png */; };
 		AAC02B19193DEEFE003997F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC02B18193DEEFE003997F3 /* AppDelegate.swift */; };
 		AAC02B1B193DEEFE003997F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC02B1A193DEEFE003997F3 /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		AAC02B20193DEEFE003997F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC02B1F193DEEFE003997F3 /* Images.xcassets */; };
 		AAC02B2C193DEEFE003997F3 /* RSSReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC02B2B193DEEFE003997F3 /* RSSReaderTests.swift */; };
 		AAC02B3A193DF344003997F3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AAC02B39193DF344003997F3 /* Podfile */; };
-		BFBD447B1C0843409AC9A3C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE16BB7AB9C49C5B4EFAE90 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		AAC02B2B193DEEFE003997F3 /* RSSReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSReaderTests.swift; sourceTree = "<group>"; };
 		AAC02B35193DF2B8003997F3 /* RSSReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Bridging-Header.h"; sourceTree = "<group>"; };
 		AAC02B39193DF344003997F3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AFE16BB7AB9C49C5B4EFAE90 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2255701E7FE2B16F83F0959 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC3B5A7D017997C00BA815C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBD447B1C0843409AC9A3C4 /* libPods.a in Frameworks */,
+				79C1A96F4B8F4295785D100E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 		70FA9D20B8584551BECCAF8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFE16BB7AB9C49C5B4EFAE90 /* libPods.a */,
+				F2255701E7FE2B16F83F0959 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +153,7 @@
 				AAC02B10193DEEFE003997F3 /* Frameworks */,
 				AAC02B11193DEEFE003997F3 /* Resources */,
 				5D1F79F4E393422A8E38BE19 /* Copy Pods Resources */,
+				9D978D6B2D8B619DDDCD4BE1 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +269,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D978D6B2D8B619DDDCD4BE1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

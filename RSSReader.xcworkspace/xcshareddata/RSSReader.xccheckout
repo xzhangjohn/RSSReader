@@ -14,24 +14,36 @@
 		<string>https://github.com/wantedly/swift-rss-sample.git</string>
 		<key>7B007683-1A9F-4419-A960-2C0E408BADDF</key>
 		<string>ssh://github.com/susieyy/RSSReaderSwift.git</string>
+		<key>ED45778FC39766C82C14E796FCD5219127BC4E46</key>
+		<string>https://github.com/xzhangjohn/RSSReader.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>RSSReader.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>05BAE8BB865DB2DF70D157C005287F8FF034FE68</key>
-		<string>..</string>
+		<string>../../swift-rss-sample</string>
 		<key>7B007683-1A9F-4419-A960-2C0E408BADDF</key>
-		<string>../../RSSReaderSwift</string>
+		<string>..Swift</string>
+		<key>ED45778FC39766C82C14E796FCD5219127BC4E46</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/wantedly/swift-rss-sample.git</string>
+	<string>https://github.com/xzhangjohn/RSSReader.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>05BAE8BB865DB2DF70D157C005287F8FF034FE68</string>
+	<string>ED45778FC39766C82C14E796FCD5219127BC4E46</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED45778FC39766C82C14E796FCD5219127BC4E46</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RSSReader</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
