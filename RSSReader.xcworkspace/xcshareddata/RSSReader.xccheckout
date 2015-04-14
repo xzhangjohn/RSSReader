@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E800942E-402F-4C5E-8E22-99B1590ADA24</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RSSReader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05BAE8BB865DB2DF70D157C005287F8FF034FE68</key>
+		<string>https://github.com/wantedly/swift-rss-sample.git</string>
+		<key>7B007683-1A9F-4419-A960-2C0E408BADDF</key>
+		<string>ssh://github.com/susieyy/RSSReaderSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RSSReader.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05BAE8BB865DB2DF70D157C005287F8FF034FE68</key>
+		<string>..</string>
+		<key>7B007683-1A9F-4419-A960-2C0E408BADDF</key>
+		<string>../../RSSReaderSwift</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wantedly/swift-rss-sample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05BAE8BB865DB2DF70D157C005287F8FF034FE68</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B007683-1A9F-4419-A960-2C0E408BADDF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RSSReaderSwift</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05BAE8BB865DB2DF70D157C005287F8FF034FE68</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift-rss-sample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
